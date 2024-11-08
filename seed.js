@@ -4,7 +4,7 @@ const path = require('path');
 const Tour = require('./models/Tour'); 
 
 // Kết nối đến MongoDB
-mongoose.connect('mongodb://localhost:27017/demo_api', {
+mongoose.connect('mongodb://127.0.0.1:27017/demo_api', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
